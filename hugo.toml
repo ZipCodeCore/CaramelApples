@@ -1,6 +1,7 @@
-baseURL = 'http://apples.zipcode.rocks/'
+baseURL = 'https://zipcodecore.github.io/'
 languageCode = 'en-us'
 title = 'Mock Interview Guide'
+logo = ''
 [module]
 [[module.imports]]
     path = 'github.com/McShelby/hugo-theme-relearn'
