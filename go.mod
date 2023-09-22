@@ -1,6 +1,6 @@
 module github.com/ZipCodeCore/CaramelApples
 
-go 1.21.1
+go 1.21
 
 require (
 	github.com/McShelby/hugo-theme-relearn v0.0.0-20230921205455-862d8bb8c2c3 // indirect
