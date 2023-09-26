@@ -1,6 +1,6 @@
 +++
 categories = ['Development', 'Python']
-date = '2023-08-22'
+date = '2023-08-25'
 description = 'Questions for Starter Python & SQL technical interview.'
 slug = 'python3-tech'
 tags = ['Python', 'SQL', 'Technical']
