@@ -4,19 +4,31 @@ date = '2023-08-22'
 description = 'Questions for the Java Tech interview.'
 slug = 'java-tech-intro'
 tags = ['Java', 'Python', 'Technical']
-title = 'Sample Technical Questions Formats'
+title = 'Sample Formats'
 +++
-## Test of Titles (2)
+## Test of Titles (h2)
 
 _this is italic_ **this is bold** this is regular.
 
-### In Java (3)
+### In Java (h3)
 
-#### What's a Class?
+#### What's a Class? (java)
 
-#### What's an Object
+A class is a blueprint for creating objects. A class defines the properties and behaviors of objects. The class defines the following:
+  instance variables,
+  methods,
+  constructors,
+  nested and inner classes,
+  and static fields and methods.
+
+Classes are used in Java, Python, and other object-oriented programming languages. A class is a structure that defines the data and the methods to work on that data. It is a blueprint or a template for creating different objects which defines its properties and behaviors. A class is a user-defined data type that we can use in our program, and it works as an object constructor, or a blueprint for creating objects.
+
+#### What's an Object? (python)
 
 Objects are variables that contain data and functions that can be used to manipulate the data. The object's data can vary in type (string, integer, etc.) depending on how it’s been defined. An object is like a mini-program inside python, with its own set of rules and behaviors.
+
+Objects contain data in the form of attributes (or instance variables) and code in the form of methods.
+
 
 #### Possible Question Styles (4)
 
