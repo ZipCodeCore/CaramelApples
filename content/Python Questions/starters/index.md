@@ -6,7 +6,6 @@ slug = 'python3-tech'
 tags = ['Python', 'Technical']
 title = 'Easy Python Questions'
 +++
-# Python Interview Qs
 
 ### Write simple function that sums the number from 1 to n
 

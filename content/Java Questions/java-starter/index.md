@@ -6,7 +6,6 @@ slug = 'java4-tech'
 tags = ['Java', 'Technical']
 title = 'More Easy Java Questions'
 +++
-# Java Interview Qs.
 
 ### Simples
 

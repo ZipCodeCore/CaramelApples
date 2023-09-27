@@ -6,7 +6,6 @@ slug = 'java5-tech'
 tags = ['Java', 'Technical']
 title = 'More Java Questions'
 +++
-# More Java Interview Questions
 
 ## Core Java Questions for Beginners
 
