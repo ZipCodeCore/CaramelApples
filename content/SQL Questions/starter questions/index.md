@@ -6,6 +6,7 @@ slug = 'SQL1-tech'
 tags = ['SQL', 'Technical']
 title = 'Some Easy SQL Questions'
 +++
+How about some _SQL_ questions??
 
 ### What is the SELECT statement?
 
