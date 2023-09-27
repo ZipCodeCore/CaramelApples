@@ -1,12 +1,12 @@
 +++
 categories = ['Development', 'Python']
 date = '2023-08-25'
-description = 'Questions for Starter Python & SQL technical interview.'
+description = 'Questions for Starter Python technical interview.'
 slug = 'python3-tech'
-tags = ['Python', 'SQL', 'Technical']
-title = 'Easy Python & SQL Questions'
+tags = ['Python', 'Technical']
+title = 'Easy Python Questions'
 +++
-# Python & SQL Interview Qs
+# Python Interview Qs
 
 ### Write simple function that sums the number from 1 to n
 
@@ -74,17 +74,17 @@ print(numbers[1 : : 2])  #output : [2, 4, 6, 8, 10]
 
 ### What are lists and tuples? What is the key difference between the two?
 
-**Lists** and **Tuples** are both s**equence data types** that can store a collection of objects in Python. The objects stored in both sequences can have **different data types**. Lists are represented with **square brackets** `['sara', 6, 0.19]`, while tuples are represented with **parantheses** `('ansh', 5, 0.97)`. \n But what is the real difference between the two? The key difference between the two is that while**lists are mutable**, **tuples** on the other hand are **immutable** objects. This means that lists can be modified, appended or sliced on the go but tuples remain constant and cannot be modified in any manner. You can run the following example on Python IDLE to confirm the difference:
+**Lists** and **Tuples** are both **sequence data types** that can store a collection of objects in Python. The objects stored in both sequences can have **different data types**. Lists are represented with **square brackets** `['Desa', 6, 0.19]`, while tuples are represented with **parantheses** `('Dolio', 5, 0.97)`.  But what is the real difference between the two? The key difference between the two is that while**lists are mutable**, **tuples** on the other hand are **immutable** objects. This means that lists can be modified, appended or sliced on the go but tuples remain constant and cannot be modified in any manner. You can run the following example on Python IDLE to confirm the difference:
 
 ```python
-my_tuple = ('sara', 6, 5, 0.97)
-my_list = ['sara', 6, 5, 0.97]
-print(my_tuple[0])     # output => 'sara'
-print(my_list[0])     # output => 'sara'
-my_tuple[0] = 'ansh'    # modifying tuple => throws an error
-my_list[0] = 'ansh'    # modifying list => list modified
-print(my_tuple[0])     # output => 'sara'
-print(my_list[0])     # output => 'ansh'
+my_tuple = ('Desa', 6, 5, 0.97)
+my_list = ['Desa', 6, 5, 0.97]
+print(my_tuple[0])     # output => 'Desa'
+print(my_list[0])     # output => 'Desa'
+my_tuple[0] = 'Dolio'    # modifying tuple => throws an error
+my_list[0] = 'Dolio'    # modifying list => list modified
+print(my_tuple[0])     # output => 'Desa'
+print(my_list[0])     # output => 'Dolio'
 ```
 
 ### What are Dict and List comprehensions?
@@ -118,12 +118,12 @@ b = [7, 8, 9]
 
 There are several built-in data types in Python. Although, Python doesn't require data types to be defined explicitly during variable declarations type errors are likely to occur if the knowledge of data types and their compatibility with each other are neglected. Python provides `type()` and `isinstance()` functions to check the type of these variables. These data types can be grouped into the following categories-
 
-* **None Type:** \n `None` keyword represents the null values in Python. Boolean equality operation can be performed using these NoneType objects.
+* **None Type:**  `None` keyword represents the null values in Python. Boolean equality operation can be performed using these NoneType objects.
   | Class Name | Description |
   |----|----|
   | NoneType | Represents the **NULL** values in Python. |
-  
-* **Numeric Types:** \n There are three distinct numeric types -**integers, floating-point numbers**, and **complex numbers**. Additionally, **booleans** are a sub-type of integers.
+
+* **Numeric Types:**  There are three distinct numeric types -**integers, floating-point numbers**, and **complex numbers**. Additionally, **booleans** are a sub-type of integers.
   | Class Name | Description |
   |----|----|
   | int | Stores integer literals including hex, octal and binary numbers as integers |
@@ -133,7 +133,7 @@ There are several built-in data types in Python. Although, Python doesn't requir
 
 ***Note:*** *The standard library also includes **fractions** to store rational numbers and **decimal** to store floating-point numbers with user-defined precision.*
 
-* **Sequence Types:** \n According to Python Docs, there are three basic Sequence Types -**lists, tuples,** and **range** objects. Sequence types have the `in` and `not in` operators defined for their traversing their elements. These operators share the same priority as the comparison operations.
+* **Sequence Types:**  According to Python Docs, there are three basic Sequence Types -**lists, tuples,** and **range** objects. Sequence types have the `in` and `not in` operators defined for their traversing their elements. These operators share the same priority as the comparison operations.
   | Class Name | Description |
   |----|----|
   | list | Mutable sequence used to store collection of items. |
@@ -141,7 +141,7 @@ There are several built-in data types in Python. Although, Python doesn't requir
   | range | Represents an immutable sequence of numbers generated during execution. |
   | str | Immutable sequence of Unicode code points to store textual data. |
 
-**Note:**The standard library also includes additional types for processing: \n 1.**Binary data** such as `bytearray bytes` `memoryview`, and \n 2.**Text strings** such as `str`.
+**Note:**The standard library also includes additional types for processing:  1.**Binary data** such as `bytearray bytes` `memoryview`, and  2.**Text strings** such as `str`.
 
 * **Mapping Types:**
 
@@ -150,7 +150,7 @@ A mapping object can map hashable values to random objects in Python. Mappings o
 |----|----|
 | dict | Stores comma-separated list of **key: value** pairs |
 
-* **Set Types:** \n Currently, Python has two built-in set types -**set** and **frozenset**. **set** type is mutable and supports methods like `add()` and `remove()`. **frozenset** type is immutable and can't be modified after creation.
+* **Set Types:**  Currently, Python has two built-in set types -**set** and **frozenset**. **set** type is mutable and supports methods like `add()` and `remove()`. **frozenset** type is immutable and can't be modified after creation.
   | Class Name | Description |
   |----|----|
   | set | Mutable unordered collection of distinct hashable objects. |
@@ -158,10 +158,10 @@ A mapping object can map hashable values to random objects in Python. Mappings o
 
 ***Note: ***`set` *is mutable and thus cannot be used as key for a dictionary. On the other hand,* `frozenset` *is immutable and thus, hashable, and can be used as a dictionary key or as an element of another set.*
 
-* **Modules:** \n Module is an additional built-in type supported by the Python Interpreter. It supports one special operation, i.e.,**attribute access**: `mymod.myobj`, where `mymod` is a module and **myobj** references a name defined in m's symbol table. The module's symbol table resides in a very special attribute of the module **__dict__**, but direct assignment to this module is neither possible nor recommended.
+* **Modules:**  Module is an additional built-in type supported by the Python Interpreter. It supports one special operation, i.e.,**attribute access**: `mymod.myobj`, where `mymod` is a module and **myobj** references a name defined in m's symbol table. The module's symbol table resides in a very special attribute of the module **__dict__**, but direct assignment to this module is neither possible nor recommended.
 
-* **Classes:** \n Classes are the most important data types in Python. Python is an object-oriented programming language and almost every entity in Python is an object, which means that they have attributes and methods. A class is like a blueprint for creating objects. An object has properties and methods(functions) associated with it. Almost everything in Python is an object, with its properties and methods. A Class is like an object constructor, or a "blueprint" for creating objects. \n **Note:** *The **dir()** function returns all properties and methods of the specified object, without the values. This function will return all the properties and methods, even built-in properties which are default for all object.*
+* **Classes:**  Classes are the most important data types in Python. Python is an object-oriented programming language and almost every entity in Python is an object, which means that they have attributes and methods. A class is like a blueprint for creating objects. An object has properties and methods(functions) associated with it. Almost everything in Python is an object, with its properties and methods. A Class is like an object constructor, or a "blueprint" for creating objects.  **Note:** *The **dir()** function returns all properties and methods of the specified object, without the values. This function will return all the properties and methods, even built-in properties which are default for all object.*
 
-* **Callable Types:** \n Callable types are the types to which function call can be applied. They can be**user-defined functions, instance methods, generator functions**, and some other **built-in functions, methods** and **classes**. \n Refer to the documentation at[docs.python.org](https://docs.python.org/3/reference/datamodel.html) for a detailed view of the **callable types**.
+* **Callable Types:**  Callable types are the types to which function call can be applied. They can be**user-defined functions, instance methods, generator functions**, and some other **built-in functions, methods** and **classes**.  Refer to the documentation at[docs.python.org](https://docs.python.org/3/reference/datamodel.html) for a detailed view of the **callable types**.
 
 
