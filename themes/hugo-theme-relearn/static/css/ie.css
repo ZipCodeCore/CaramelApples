@@ -844,8 +844,8 @@
 
     /* our silly dinosaur browser wants to have the real colors */
     #header-wrapper {
-        background-color: rgba( 47, 160, 115, 1 ); /* var(--MENU-HEADER-BG-color) */
-        border-bottom-color: rgba( 47, 160, 115, 1 ); /* var(--MENU-HEADER-BORDER-color) */
+        background-color: rgba( 66, 222, 162, 1 ); /* var(--MENU-HEADER-BG-color) */
+        border-bottom-color: rgba( 66, 222, 162, 1 ); /* var(--MENU-HEADER-BORDER-color) */
     }
 
     /* clears the 'X' from Internet Explorer's search input */

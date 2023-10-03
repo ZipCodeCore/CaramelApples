@@ -1,7 +1,7 @@
 :root {
     /* initially use section background to avoid flickering on load when a non default variant is active;
     this is only possible because every color variant defines this variable, otherwise we would have been lost */
-    --INTERNAL-PRIMARY-color: var(--PRIMARY-color, var(--MENU-HEADER-BG-color, rgba( 0, 0, 0, 0 ))); /* not --INTERNAL-MENU-HEADER-BG-color */
+    --INTERNAL-PRIMARY-color: var(--PRIMARY-color, var(--MENU-HEADER-BG-color, rgba( 66, 222, 162, 1 ))); /* not --INTERNAL-MENU-HEADER-BG-color */
     --INTERNAL-SECONDARY-color: var(--SECONDARY-color, var(--MAIN-LINK-color, rgba( 72, 106, 201, 1 ))); /* not --INTERNAL-MAIN-LINK-color */
     --INTERNAL-ACCENT-color: var(--ACCENT-color, rgba( 255, 255, 0, 1 ));
 
@@ -77,7 +77,7 @@
     --INTERNAL-BOX-TEXT-color: var(--BOX-TEXT-color, var(--INTERNAL-MAIN-TEXT-color));
 
     --INTERNAL-BOX-BLUE-color: var(--BOX-BLUE-color, rgba( 48, 117, 229, 1 ));
-    --INTERNAL-BOX-GREEN-color: var(--BOX-GREEN-color, rgba( 42, 178, 24, 1 ));
+    --INTERNAL-BOX-GREEN-color: var(--BOX-GREEN-color, rgba( 66, 222, 162, 1));
     --INTERNAL-BOX-GREY-color: var(--BOX-GREY-color, rgba( 160, 160, 160, 1 ));
     --INTERNAL-BOX-ORANGE-color: var(--BOX-ORANGE-color, rgba( 237, 153, 9, 1 ));
     --INTERNAL-BOX-RED-color: var(--BOX-RED-color, rgba( 224, 62, 62, 1 ));
@@ -103,7 +103,7 @@
     /* print style, values taken from relearn-light as it is used as a default print style */
     --INTERNAL-PRINT-MAIN-BG-color: var(--PRINT-MAIN-BG-color, rgba( 255, 255, 255, 1 ));
     --INTERNAL-PRINT-CODE-font: var(--PRINT-CODE-font, "Consolas", menlo, monospace);
-    --INTERNAL-PRINT-TAG-BG-color: var(--PRINT-TAG-BG-color, rgba( 47, 160, 115, 1 ));
+    --INTERNAL-PRINT-TAG-BG-color: var(--PRINT-TAG-BG-color, rgba( 66, 222, 162, 1 ));
     --INTERNAL-PRINT-MAIN-font: var(--PRINT-MAIN-font, "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif);
     --INTERNAL-PRINT-MAIN-TEXT-color: var(--PRINT-MAIN-TEXT-color, rgba( 16, 16, 16, 1 ));
     --INTERNAL-PRINT-MERMAID-theme: var(--PRINT-MERMAID-theme, default);
